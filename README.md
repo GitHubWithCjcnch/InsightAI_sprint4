@@ -6,7 +6,7 @@
 - **EMILE DE MOURA MAIA RM552235**
 - **GUILHERME PEREIRA DE OLIVEIRA RM552238**
 - **JULIA ANDRADE DIAS RM552332**
-- **MARIA EDUARDA COSTA DE ARA�JO VIEIRA RM98760**
+- **MARIA EDUARDA COSTA DE ARAÚJO VIEIRA RM98760**
 
 ---
 
@@ -35,7 +35,7 @@ Este projeto segue uma arquitetura multicamada (layered architecture), dividida 
 - Camada de Testes: Dedicada a testes unitários e de integração, garantindo a qualidade do código e a correção do comportamento da aplicação.
 
 
-### Depend�ncias Utilizadas:
+### Dependências Utilizadas:
 - **ASP.NET Core**
 - **Entity Framework Core**
 - **XUnit**
@@ -49,29 +49,29 @@ Este projeto segue uma arquitetura multicamada (layered architecture), dividida 
 
 ## Design Patterns Utilizados
 
-- **Repository Pattern**: Utilizado na camada de infraestrutura para abstrair a intera��o com o banco de dados e permitir uma comunica��o mais f�cil entre o Core e o banco de dados.
+- **Repository Pattern**: Utilizado na camada de infraestrutura para abstrair a interação com o banco de dados e permitir uma comunicação mais fácil entre o Core e o banco de dados.
   
-- **Dependency Injection (DI)**: Implementado em toda a aplica��o para permitir que as depend�ncias sejam resolvidas automaticamente, facilitando a testabilidade e a troca de implementa��es.
+- **Dependency Injection (DI)**: Implementado em toda a aplicação para permitir que as dependências sejam resolvidas automaticamente, facilitando a testabilidade e a troca de implementações.
 ---
 
-### Configura��es
+### Configurações
 
-1. Clone o reposit�rio do projeto:
+1. Clone o repositório do projeto:
    ```bash
-   git clone https://github.com/seu-usuario/InsightAI.git
+   git clone https://github.com/seu-usuario/InsightAI_sprint4.git
 
-2. Abra o projeto em sua IDE de prefer�ncia (como Visual Studio ou VS Code).
+2. Abra o projeto em sua IDE de preferência (como Visual Studio ou VS Code).
 
-3. Configura��o da Connection String:
-    Se necess�rio, edite o arquivo appsettings.json e altere a Connection String para o banco de dados correto. Por padr�o, ela est� configurada para uma conta de estudante:
+3. Configuração da Connection String:
+    Se necessário, edite o arquivo appsettings.json e altere a Connection String para o banco de dados correto. Por padrão, ela está configurada para uma conta de estudante:
 
 4. Rodando as Migrations:
 
-    Para rodar as migrations corretamente, � necess�rio trocar o projeto de migra��es para InsightAI.Infraestructure, onde as classes de contexto e as migrations est�o configuradas. Voc� pode fazer isso de duas formas:
+    Para rodar as migrations corretamente, é necessário trocar o projeto de migrações para InsightAI.Repositories, onde as classes de contexto e as migrations estão configuradas. Você pode fazer isso de duas formas:
 
     Usando o Gerenciador de Pacotes do Visual Studio:
-    No Visual Studio, v� em Ferramentas > Gerenciador de Pacotes NuGet > Console do Gerenciador de Pacotes.
-    No console, altere o projeto padr�o para InsightAI.Infraestructure utilizando o menu suspenso localizado no canto superior direito do console.
+    No Visual Studio, vá em Ferramentas > Gerenciador de Pacotes NuGet > Console do Gerenciador de Pacotes.
+    No console, altere o projeto padrão para InsightAI.Repositories utilizando o menu suspenso localizado no canto superior direito do console.
     Depois, execute o seguinte comando para aplicar as migrations:
    ```bash
    Add-Migration FirstMigration
