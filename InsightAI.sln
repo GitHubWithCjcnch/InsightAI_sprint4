@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightAI.API", "InsightAI.API\InsightAI.API.csproj", "{7CE898CE-343D-4D0D-AFA0-EAD46CE8B6F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightAI.MLModels", "InsightAI.MLModels\InsightAI.MLModels.csproj", "{AE440F4D-4D56-4BA2-8BFA-050833610BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightAI.Models", "Models\InsightAI.Models.csproj", "{1354B148-B707-43F5-9B32-151A7683DFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightAI.Repositories", "Repositories\InsightAI.Repositories.csproj", "{2497565B-1AC1-4AA1-8D4C-BF517626DF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightAI.Services", "InsightAI.Services\InsightAI.Services.csproj", "{E4D81B37-C8EE-4A8C-A4CB-550872EF956A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightAI.Tests", "InsightAI.Tests\InsightAI.Tests.csproj", "{59FDFCBA-72E7-4912-A752-F8DF5F3D07C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CE898CE-343D-4D0D-AFA0-EAD46CE8B6F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE898CE-343D-4D0D-AFA0-EAD46CE8B6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE898CE-343D-4D0D-AFA0-EAD46CE8B6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE898CE-343D-4D0D-AFA0-EAD46CE8B6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE440F4D-4D56-4BA2-8BFA-050833610BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE440F4D-4D56-4BA2-8BFA-050833610BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE440F4D-4D56-4BA2-8BFA-050833610BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE440F4D-4D56-4BA2-8BFA-050833610BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1354B148-B707-43F5-9B32-151A7683DFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1354B148-B707-43F5-9B32-151A7683DFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1354B148-B707-43F5-9B32-151A7683DFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1354B148-B707-43F5-9B32-151A7683DFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2497565B-1AC1-4AA1-8D4C-BF517626DF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2497565B-1AC1-4AA1-8D4C-BF517626DF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2497565B-1AC1-4AA1-8D4C-BF517626DF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2497565B-1AC1-4AA1-8D4C-BF517626DF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D81B37-C8EE-4A8C-A4CB-550872EF956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D81B37-C8EE-4A8C-A4CB-550872EF956A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D81B37-C8EE-4A8C-A4CB-550872EF956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D81B37-C8EE-4A8C-A4CB-550872EF956A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FDFCBA-72E7-4912-A752-F8DF5F3D07C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FDFCBA-72E7-4912-A752-F8DF5F3D07C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FDFCBA-72E7-4912-A752-F8DF5F3D07C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FDFCBA-72E7-4912-A752-F8DF5F3D07C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD17B66B-DC96-46AF-AF50-4911C0BB2BA0}
+	EndGlobalSection
+EndGlobal

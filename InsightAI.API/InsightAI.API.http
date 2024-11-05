@@ -1,0 +1,6 @@
+@InsightAI.API_HostAddress = http://localhost:5166
+
+GET {{InsightAI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
